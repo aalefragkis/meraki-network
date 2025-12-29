@@ -1,0 +1,9 @@
+{
+    "api_key": "API_Key_Created_On_Meraki_website",
+    "org_id": "Only_Numbers_ID_Exported_From_'get_orgs.py'_File",
+    "org_name": "Add_Your_Org_Name_Here",
+    "network_id": "Network_ID_'N_0000'_Exported_From_'get_org_networks.py'_File",
+    "location": "Add_Your_Location_Name_Here",
+    "whitelist": [],
+    "_comment": "Edit this file according to the instructions above and rename from 'sample_ignored_config.json' to 'ignored_config.json' in same folder."
+}

@@ -30,16 +30,10 @@ A collection of Python scripts designed for automated management, security audit
 ```
 
 2. **Configuration**:
-Create a file named `ignore_config.json` in the root directory (this file is ignored by Git for security):
+Copy the provided sample configuration file to create your local config:
 
-```json
-{
-    "api_key": "your_meraki_api_key",
-    "org_id": "your_organization_id",
-    "network_id": "your_network_id",
-    "location": "your_location",
-    "whitelist": ["mac_address_1", "mac_address_2"]
-}
+```bash
+   cp sample_ignore_config.json ignore_config.json
 ```
 
 

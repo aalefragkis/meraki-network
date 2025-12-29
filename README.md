@@ -24,14 +24,14 @@ A collection of Python scripts designed for automated management, security audit
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/aalefragkis/meraki-network.git](https://github.com/aalefragkis/meraki-network.git)
+   git clone https://github.com/aalefragkis/meraki-network.git
    cd meraki-network
 ```
 
 2. **Configuration**:
    Create a file named `ignore_config.json` in the root directory (this file is ignored by Git for security):
 
-```json
+   ```json
 {
     "api_key": "your_meraki_api_key",
     "org_id": "your_organization_id",

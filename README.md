@@ -29,7 +29,8 @@ A collection of Python scripts designed for automated management, security audit
 ```
 
 2. **Configuration**:
-Create a file named `ignore_config.json` in the root directory (this file is ignored by Git for security):
+   Create a file named `ignore_config.json` in the root directory (this file is ignored by Git for security):
+
 ```json
 {
     "api_key": "your_meraki_api_key",

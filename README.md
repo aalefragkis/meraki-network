@@ -23,15 +23,16 @@ A collection of Python scripts designed for automated management, security audit
 ## 🚀 Setup & Installation
 
 1. **Clone the repository**:
-   ```bash
+
+```bash
    git clone https://github.com/aalefragkis/meraki-network.git
    cd meraki-network
 ```
 
 2. **Configuration**:
-   Create a file named `ignore_config.json` in the root directory (this file is ignored by Git for security):
+Create a file named `ignore_config.json` in the root directory (this file is ignored by Git for security):
 
-   ```json
+```json
 {
     "api_key": "your_meraki_api_key",
     "org_id": "your_organization_id",
@@ -43,6 +44,7 @@ A collection of Python scripts designed for automated management, security audit
 
 
 3. **Run the Pre-flight Check**:
+
 ```bash
 python3 check_config.py
 ```

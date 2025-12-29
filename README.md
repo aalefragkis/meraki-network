@@ -26,7 +26,6 @@ A collection of Python scripts designed for automated management, security audit
    ```bash
    git clone [https://github.com/aalefragkis/meraki-network.git](https://github.com/aalefragkis/meraki-network.git)
    cd meraki-network
-
 ```
 
 2. **Configuration**:
@@ -39,14 +38,12 @@ Create a file named `ignore_config.json` in the root directory (this file is ign
     "location": "your_location",
     "whitelist": ["mac_address_1", "mac_address_2"]
 }
-
 ```
 
 
 3. **Run the Pre-flight Check**:
 ```bash
 python3 check_config.py
-
 ```
 
 

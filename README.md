@@ -6,7 +6,7 @@ Meraki Network monitoring tools.
 
 A collection of Python scripts designed for automated management,
 security auditing, and health monitoring of Cisco Meraki networks,
-specifically optimized for airport infrastructure environments.
+specifically optimized for infrastructure environments.
 
 ## 🛠 Features
 

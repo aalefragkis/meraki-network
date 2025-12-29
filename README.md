@@ -1,12 +1,9 @@
 # meraki-network
 Meraki Network monitoring tools.
 
-
 # Meraki Network Management Suite
 
-A collection of Python scripts designed for automated management,
-security auditing, and health monitoring of Cisco Meraki networks,
-specifically optimized for infrastructure environments.
+A collection of Python scripts designed for automated management, security auditing, and health monitoring of Cisco Meraki networks, specifically optimized for airport infrastructure environments.
 
 ## 🛠 Features
 
@@ -29,11 +26,12 @@ specifically optimized for infrastructure environments.
    ```bash
    git clone [https://github.com/aalefragkis/meraki-network.git](https://github.com/aalefragkis/meraki-network.git)
    cd meraki-network
-   ```
 
+```
 
-2. Configuration: Create a file named ignore_config.json in the root directory (this file is ignored by Git for security):
-   ```JSON
+2. **Configuration**:
+Create a file named `ignore_config.json` in the root directory (this file is ignored by Git for security):
+```json
 {
     "api_key": "your_meraki_api_key",
     "org_id": "your_organization_id",
@@ -41,20 +39,24 @@ specifically optimized for infrastructure environments.
     "location": "your_location",
     "whitelist": ["mac_address_1", "mac_address_2"]
 }
+
 ```
 
 
-3. Run the Pre-flight Check:
-   ```bash
+3. **Run the Pre-flight Check**:
+```bash
 python3 check_config.py
-   ```
+
+```
 
 
 
-🛡 Security Note
+## 🛡 Security Note
 
 This project follows security best practices by ensuring that no API keys or sensitive organizational data are ever committed to the version control system.
 
-Developed for Network Engineering & Cyber Security monitoring.
+---
 
-Antonios Alefragkis, Greece
+**Developed for Network Engineering & Cyber Security monitoring.**
+
+*Antonios Alefragkis, Greece*

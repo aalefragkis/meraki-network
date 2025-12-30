@@ -54,3 +54,8 @@ This project follows security best practices by ensuring that no API keys or sen
 **Developed for Network Engineering & Cyber Security monitoring.**
 
 *Antonios Alefragkis, Greece*
+
+
+## ⚖️ License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
